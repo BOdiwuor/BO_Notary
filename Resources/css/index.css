@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    color:seashell;
+    font-family: Helvetica;
+    opacity: 0.9;
+}
+
+.container{
+    
+    text-align: center;
+    display: flex;
+}
+
+.container, nav{
+    display: inline;
+}
+
+
+ul li {
+    list-style-type:none;
+}
+
+.top:link{
+    color:aqua;
+}
+
+.top:visited{
+    color:blue;
+}
+.top:hover{
+    color:green;
+}
+
+#About{
+    background: url('../Images/Screenshot\ 2024-07-16\ 173126_About.png') center;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner{
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+}
+
+
+#middle, h3{
+    text-align: center;
+}
+
+
+.Services, .Fees, .Loan {
+    border: 1px solid white;
+    justify-content: space-around;
+    background-color: black;
+    color: gainsboro;
+    margin: 25px 20px;
+    display: block;
+    background: url(../Images/238551953-documents-notary-stamp-and-pen_middle.jpeg) center;
+}
+
+#ContactInformation{
+    margin-top: 10px;
+    display:grid;
+}
+
+.Contacts, .Hours {
+    border: 1px solid white;
+    justify-content: space-around;
+    background-color: black;
+    margin: 25px 20px;
+    display: block;
+}
+.Contacts, p{
+    text-align: center;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    font-family: sans-serif;
+    border-top: 1px solid white;
+}
+
+@media only screen and(min-width:480px), (orientation:portrait) {
+    #About{
+        background: url('../Images/Screenshot\ 2024-07-16\ 173126_About.png') top}
+}
+
+
+@media only screen and(min-width:480px), (orientation:portrait) {
+    .Services, .Fees, .Loan{
+        background: url(../Images/238551953-documents-notary-stamp-and-pen_middle.jpeg) center;}
+}
